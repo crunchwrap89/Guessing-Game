@@ -28,6 +28,12 @@ public class Guesser{
 	  
   }
 
+  Guesser(int argLow, int argHigh) {
+	  this.low = argLow;
+	  this.high = argHigh;
+  }
+  
+
 
   /*
    * Task 2. Complete the start() method, so that
