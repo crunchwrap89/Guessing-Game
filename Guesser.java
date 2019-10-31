@@ -23,6 +23,10 @@ public class Guesser{
    */
   
   // Write the constructor below this line.
+  public String toString(){
+	  return "low: " + low + " high: " + high;
+	  
+  }
 
 
   /*
